@@ -1,0 +1,59 @@
+/**技术支持：奇奇科技     www.qiqikeji.com*/
+@charset "utf-8";
+
+body{font-size: 14px; font-family: "microsoft yahei";color: #5d5d5d; background-color: #efefef; min-width: 1024px}
+body,div,span, img, a, ul,li,ol,p,b,input,dl,dt,dd,h1,h3,h2,h4,h5,em,i,strong,textarea{ list-style:none;padding: 0; margin: 0; font-style: normal; box-sizing: border-box}
+h1,h2,h3,h4,h6,h5,dt,b{ font-style: normal; font-weight: normal;}
+h1,h2{ font-family: "microsoft yahei";}
+img,input{ border: none;;outline:none; font-family: "microsoft yahei"}
+input[type=button],input[type=submit]{cursor: pointer}
+a:link,a:visited{color: #5d5d5d; text-decoration:none;}
+a:hover{color: #e96a55;}
+.clear{clear: both;height:0;font-size:1px;line-height:0px;}
+.none{display: none;}
+
+a:focus{
+    outline: none;
+    -webkit-moz-outline-style: none;
+    -moz-moz-outline-style: none;
+    -ms-moz-outline-style: none;
+    -o-moz-outline-style: none;
+    moz-outline-style: none;
+}
+*{transition:background-color 0.2s linear}
+
+.table{display: table}
+.table-cell{display: table-cell; vertical-align: middle}
+
+.loadimg{ margin: 0 auto}
+.img-responsive{display: block; margin: 0 auto; width: 100%;}
+
+/*img hover css3效果*/
+img.trans1{ -webkit-transition: all 1s;-moz-transition: all 1s;-ms-transition: all 1s;-o-transition: all 1s;transition: all 1s; width: 100%;}
+img.trans{ -webkit-transition: all 0.3s;-moz-transition: all 0.3s;-ms-transition: all 0.1s;-o-transition: all 0.3s;transition: all 0.3s; width: 100%;}
+.trans-hover:hover img.trans1{transform:scale(1.07,1.07); -webkit-transform: scale(1.07,1.07);-o-transform: scale(1.07,1.07);-ms-transform: scale(1.07,1.07);}
+.trans-hover:hover img.trans{transform:scale(1.07,1.07); -webkit-transform: scale(1.07,1.07);-o-transform: scale(1.07,1.07);-ms-transform: scale(1.07,1.07);}
+
+/*多行超出部分文字省略号*/
+.clamp{overflow: hidden; text-overflow: ellipsis; -webkit-box-orient: vertical; display: -webkit-box;}
+.row1{-webkit-line-clamp: 1;}
+.row2{-webkit-line-clamp: 2;}
+.row3{-webkit-line-clamp: 3;}
+.row4{-webkit-line-clamp: 4;}
+.row5{-webkit-line-clamp: 5;}
+.row6{-webkit-line-clamp: 6;}
+
+.container-fluid{width: 100%; overflow: hidden; background-color: #f1f1f1;}
+.container{width: 1024px; margin: 0 auto; overflow: hidden}
+
+
+/*效果自定义*/
+.s2{
+    animation-duration:2s;
+   -webkit-animation-duration:2s;
+}
+
+
+
+
+
